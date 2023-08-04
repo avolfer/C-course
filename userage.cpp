@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    int rokUrodzenia, rokAktualny, wiek;
+    int rokUrodzenia, rokAktualny, wiek, koniecProgram;
 
     // Wprowadź dane
     cout << "Podaj rok swojego urodzenia: ";
@@ -18,5 +18,9 @@ int main()
     // Wyświetl wynik
     cout << "Masz " << wiek << " lat." << endl;
 
+    cout << "...";
+    cin >> koniecProgram;
+
     return 0;
 }
+
